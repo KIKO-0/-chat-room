@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tPC.Controller">
+   <children>
+      <Label layoutX="35.0" layoutY="48.0" prefHeight="23.0" prefWidth="42.0" text="Name" />
+      <TextField fx:id="txt_nickname" layoutX="71.0" layoutY="48.0" promptText="Please enter your nickname" />
+      <TextField fx:id="txt_ip" layoutX="71.0" layoutY="107.0" promptText="Please enter the IP address" />
+      <Label layoutX="45.0" layoutY="111.0" text="IP" />
+      <Label layoutX="326.0" layoutY="52.0" text="Port" />
+      <TextArea fx:id="txt_context" layoutX="71.0" layoutY="151.0" prefHeight="127.0" prefWidth="455.0" promptText="Chatting Records" />
+      <TextField fx:id="txt_port" layoutX="365.0" layoutY="48.0" promptText="Please enter your port number" />
+      <Button fx:id="btn_conn" layoutX="324.0" layoutY="107.0" mnemonicParsing="false" onAction="#contect" text="Connect" />
+      <Button fx:id="btn_send" layoutX="481.0" layoutY="349.0" mnemonicParsing="false" onAction="#send" text="Send" />
+      <TextArea fx:id="txt_message" layoutX="71.0" layoutY="292.0" prefHeight="57.0" prefWidth="455.0" promptText="Please Enter..." />
+   </children>
+</AnchorPane>
